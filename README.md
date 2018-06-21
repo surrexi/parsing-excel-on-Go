@@ -7,11 +7,11 @@ An application on go that processes excel files
 ## Install
 Клонируем репозиторий проекта к себе на компьютер
 ```sh
-$ git clone git@github.com:surrexi/handling-excel-files.git
+$ git clone git@github.com:surrexi/parsing-excel-on-Go.git
 ```
 Проходим в папку проекта
 ```sh
-$ cd handling-excel-files
+$ cd parsing-excel-on-Go
 ```
 Далее копируем конфиг и настраиваем в нем подключение к БД
 ```sh
@@ -23,5 +23,5 @@ $ go build
 ```
 Запускаем проект
 ```sh
-$ ./handling-excel-files
+$ ./parsing-excel-on-Go
 ```
