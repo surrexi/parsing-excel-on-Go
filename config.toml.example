@@ -1,0 +1,19 @@
+# This is a TOML document. Boom.
+
+[database]
+driver       = "mysql"
+port         = 3306
+user         = "<your_user>"
+password     = "<your_pass>"
+databaseName = "<database_name>"
+
+[excelFiles]
+prefix = "Номенклатура"
+files  = [
+     "0. Блоки Нью-Джерси.xlsx",
+     "1. Дорожное строительство.xlsx",
+     "2. Строительство инженерных сетей.xlsx",
+     "3. Энергетическое строительство.xlsx",
+     "4. Нефтегазовое строительство.xlsx",
+     "5. Общегражданское и промышленное.xlsx"
+]
